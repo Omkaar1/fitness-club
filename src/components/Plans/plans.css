@@ -1,0 +1,30 @@
+.plans-conatainer {
+  margin-top: -4rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  background: var(--caloryCard);
+  color: #fff;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+.plan:nth-child(2) {
+  background: var(--planCard);
+  transform: scale(1.1);
+}
+
+.plan > svg {
+  fill: var(--orange);
+}
