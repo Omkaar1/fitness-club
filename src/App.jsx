@@ -1,7 +1,11 @@
+import Hero from "./components/Hero/Hero";
+import "./App.css";
+import Program from "./components/Program/Program";
 function App() {
   return (
     <div className="App">
-      <h1>HI</h1>
+      <Hero />
+      <Program />
     </div>
   );
 }
