@@ -6,6 +6,22 @@
   border: 1px solid var(--lightgray);
 }
 
+.footer-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 5rem;
+  left: 5rem;
+  filter: blur(200px);
+}
+.footer-blur-2 {
+  width: 26rem;
+  height: 12rem;
+  bottom: 0;
+  right: 15rem;
+  filter: blur(200px);
+  background: red;
+}
+
 .footer {
   padding: 1rem 2rem;
   display: flex;

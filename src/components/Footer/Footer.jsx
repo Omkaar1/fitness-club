@@ -9,6 +9,8 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <hr />
+      <div className="blur footer-blur-1"></div>
+      <div className="blur footer-blur-2"></div>
       <div className="footer">
         <div className="social-links">
           <img src={github} alt="" />
