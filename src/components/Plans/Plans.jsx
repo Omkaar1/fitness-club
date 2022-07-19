@@ -27,8 +27,12 @@ const Plans = () => {
                   <span key={i}>{feature}</span>
                 </div>
               ))}
-              <button>Join Now</button>
             </div>
+
+            <div>
+              <span>See more benefits -> </span>
+            </div>
+            <button className="btn">Join Now</button>
           </div>
         ))}
       </div>
